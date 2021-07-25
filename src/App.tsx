@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import List from './Companant/List';
+
 
 
 
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <h1> My Friend List</h1>
       <List />
+
     </div>
   );
 }
